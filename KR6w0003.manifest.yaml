@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6w0003/v1
+canonical_location: https://kanripo.org/bkk/KR6w0003/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 盂蘭盆經講經文（前殘）
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/D/D03/D03n8701.xml
+    old_id: D03n8701
+  edition:
+    short: bkk
+editions:
+- short: 國圖
+  label: 國圖
+  source_xml_id: wit.orig
+- short: D
+assets:
+  parts:
+  - {seq: 1, filename: KR6w0003_001.yaml, hash: 'sha256:d7fdd7be2e1732d665fee2391dc1edd718eb1497994bc2e28b22c43795157475'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6w0003_001.markers.yaml, hash: 'sha256:d94f4e76cc353a2858dd3c8b2c565c3f98035399b708743bc9952794378f5045'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6w0003_D_001-juan-start
+    span:
+    - body
+    - 0
+    - 1375
+  label: ''
+  type: juan
+  level: 1
+hash: sha256:8dd1a4ccb48ad0e5044046ee9016f9ac4dc47b6ceb3df91eae6b4e26f16c7217
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

@@ -1,0 +1,36 @@
+canonical_identifier: bkk:krp/KR6w0003/D/v1
+canonical_location: https://kanripo.org/bkk/KR6w0003/D/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 盂蘭盆經講經文（前殘）
+  identifiers:
+    krp: KR6w0003
+    cbeta: D03n8701
+    cbeta_old_id: D03n8701
+    authorityid: CA0008002
+    json_key: D8701
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/D/D03/D03n8701.xml
+    old_id: D03n8701
+  edition:
+    short: D
+assets:
+  parts:
+  - {seq: 1, filename: KR6w0003_001-D.yaml, hash: 'sha256:a7e9957dd0a31a44577d567e656e1e746905a8a4cb308efdac2868ee16ec6e70'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6w0003_001-D.markers.yaml, hash: 'sha256:1164b37ccc74f25400505ebe7170fe9d823d39a637d4dcedb69e93da964c30e7'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6w0003_D_001-juan-start
+    span:
+    - body
+    - 0
+    - 1375
+  label: ''
+  type: juan
+  level: 1
+hash: sha256:096a0564fd67e3c7f71a8a590533aac26a7164023d45b09cdb9db9f3c91055e4
