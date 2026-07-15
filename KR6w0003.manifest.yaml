@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6w0003/v1
 canonical_location: https://kanripo.org/bkk/KR6w0003/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 盂蘭盆經講經文（前殘）
   source:
@@ -18,9 +18,9 @@ editions:
 - short: D
 assets:
   parts:
-  - {seq: 1, filename: KR6w0003_001.yaml, hash: 'sha256:a7e9957dd0a31a44577d567e656e1e746905a8a4cb308efdac2868ee16ec6e70'}
+  - {seq: 1, filename: KR6w0003_001.yaml, hash: 'sha256:a5c3a2ed1b89e95dc7dd1eaec2cc2fdebcfce7b6a1b156a287b61a545b1c2683'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6w0003_001.markers.yaml, hash: 'sha256:5a99cb07b8a47319e3050b83dbf36c61bdfca37cdccfe6aa9359bd4062162313'}
+  - {seq: 1, role: markers, filename: assets/KR6w0003_001.markers.yaml, hash: 'sha256:3dea8330c683d04a15b3b169978d2ecb64ff295f85916c73613f0d96304034d5'}
 table_of_contents:
 - ref:
     seq: 1
@@ -32,4 +32,7 @@ table_of_contents:
   label: ''
   type: juan
   level: 1
-hash: sha256:66e02c125914e8c10198ee2d83764ff124271916349da9a4d01d597491f1e848
+hash: sha256:dfb18144395e64bd3482cd35232391fd54bca55cb98659f481d0d18bd437e253
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
